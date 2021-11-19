@@ -8,9 +8,7 @@ dockerImage = ''
 agent any
 stages {
 stage('Cloning our Git') {
-steps {
-git 'https://github.com/PaulMercer1/movie.git'
-}
+
 }
 stage('Building our image') {
 steps{
