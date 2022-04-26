@@ -16,3 +16,7 @@ def movie():
                 ORDER BY Rating DESC
                 LIMIT 10 
             """))
+
+
+def test():
+	print ("Testing")
